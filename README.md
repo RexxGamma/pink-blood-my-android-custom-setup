@@ -13,7 +13,7 @@ My custom android setup for everyday tasks.Built on samsung A03M
 • MIUI-ify
 • A local adb launcher(or a pc if you have one)
 
-#Setup Tutorial
+# Setup Tutorial
 To get my phone style you need to install Omalauncher and set it as default home screen UI on settings.Then you need to customize the launcher:
 
 
