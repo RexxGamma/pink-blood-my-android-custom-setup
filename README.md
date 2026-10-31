@@ -2,7 +2,7 @@
 My custom android setup for everyday tasks.Built on samsung A03M
 
 
-Apps needed:
+#Apps needed:
 • Shizuku
 • Cebian
 • Smart Island
@@ -13,7 +13,7 @@ Apps needed:
 • MIUI-ify
 • A local adb launcher(or a pc if you have one)
 
-Setup Tutorial
+#Setup Tutorial
 To get my phone style you need to install Omalauncher and set it as default home screen UI on settings.Then you need to customize the launcher:
 
 
@@ -66,15 +66,13 @@ and download open code(or another code agent) on settings(omalauncher)>coding ag
 
 With this.All the Omalaumcher setup would be finished.
 
-MIUI-ify Setup
-________________________________________________
+#MIUI-ify Setup
 After that you need to configure MIUI-ify with cebian
 
 
 First we will customize MIUI-ify with this settings:
 
-#Note:
-#the options that not appear are diabled
+Note: the options that not appear are diabled
 
 _handles_
 
@@ -126,9 +124,10 @@ show wifi network ssid
 
 Then you need to configure the appear gesture with cebian:
 
-#Note:
-#the options that not appear are diabled or #selected with none
-#active means that the option is activaed but don't do something
+//Note:
+//the options that not appear are diabled or
+//selected with none
+//active means that the option is activaed but don't do something
 
 gesture animation: wave
 lock screen 
@@ -164,8 +163,7 @@ Now you need to search and click just one time "disable status bar" option.Now y
 
 
 
-Smart Island Setup
-________________________________________________
+#Smart Island Setup
 
 _home_
 
@@ -182,8 +180,7 @@ island font: monospace
 shortcuts: no shortcuts
 
 
-HeliBoard Setup
-______________________________________
+#HeliBoard Setup
 
 First you need to wet HeliBoard as a default keyboard on settings and configure heliboard like this:
 
@@ -236,13 +233,10 @@ emoji for physical keyboard
 switch tomain keyboard afer...
 
 
-KLCK setup
-________________________________________________
+#KLCK setup
 
-KLCK is the app that change the lock screen,so.On KLCK you need to import the .klck file
+KLCK is the app that change the lock screen,so.On KLCK you need to import the .klck file That appears on this repo
 
-
-Scripts
 
 
 
