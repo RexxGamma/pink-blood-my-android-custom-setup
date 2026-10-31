@@ -1,246 +1,272 @@
-# pink-blood
-My custom android setup for everyday tasks.Built on samsung A03M
+# 🩸 pink-blood
 
+My custom Android setup for everyday tasks. Built on a **Samsung A03M**.
 
-#Apps needed:
-• Shizuku
-• Cebian
-• Smart Island
-• Omalauncher
-• Test DPC
-• KLCK
-• Heliboard
-• MIUI-ify
-• A local adb launcher(or a pc if you have one)
+![Wallpaper](wallpaper.png)
 
-# Setup Tutorial
-To get my phone style you need to install Omalauncher and set it as default home screen UI on settings.Then you need to customize the launcher:
+## 📋 Table of contents
 
+- [Required apps](#-required-apps)
+- [Omalauncher setup](#-omalauncher-setup)
+- [MIUI-ify setup](#-miui-ify-setup)
+- [Removing the native quick settings](#-removing-the-native-quick-settings)
+- [Smart Island setup](#-smart-island-setup)
+- [HeliBoard setup](#-heliboard-setup)
+- [KLCK setup](#-klck-setup)
 
-First we need to search and select the theme "pink blood" and set the style settings like this:
+---
 
+## 📦 Required apps
 
-_home screen_
-icons: monochrome
-home apps: icons only
-recent apps: hidden
-columns: 4
-pages: one
-corners: soft
+- Shizuku
+- Cebian
+- Smart Island
+- Omalauncher
+- Test DPC
+- KLCK
+- HeliBoard
+- MIUI-ify
+- A local ADB launcher (or a PC if you have one)
 
-_widgets_
+---
 
-gaps in: 6db
-gaps out: 6db
-border width: 2db
-opacity: 0.74
-frosted glass: off
+## 🚀 Omalauncher setup
 
-_screens_
+Install Omalauncher and set it as your default home screen in **Settings**. Then customize it:
 
-gaps out: 6db
-border width: 2db
+1. Search for and select the theme **"pink blood"**.
+2. Apply the following style settings.
 
-_terminal keybar_
+**Home screen**
 
-gaps out: 6db
-border width: 2db
+| Option | Value |
+|---|---|
+| Icons | Monochrome |
+| Home apps | Icons only |
+| Recent apps | Hidden |
+| Columns | 4 |
+| Pages | One |
+| Corners | Soft |
 
-_system bars_
+**Widgets**
 
-status bar: hidden
-background: shown
-border width: 2db
+| Option | Value |
+|---|---|
+| Gaps in | 6dp |
+| Gaps out | 6dp |
+| Border width | 2dp |
+| Opacity | 0.74 |
+| Frosted glass | Off |
 
-_launcher and widgets_
+**Screens**
 
-font: JetBrains Mono NL
-text: medium
+| Option | Value |
+|---|---|
+| Gaps out | 6dp |
+| Border width | 2dp |
 
+**Terminal keybar**
 
-All with this background image:
-￼
+| Option | Value |
+|---|---|
+| Gaps out | 6dp |
+| Border width | 2dp |
 
-Then,you need to download linux on settings(omalauncher)>linux 
-and download open code(or another code agent) on settings(omalauncher)>coding agents
+**System bars**
 
-With this.All the Omalaumcher setup would be finished.
+| Option | Value |
+|---|---|
+| Status bar | Hidden |
+| Background | Shown |
+| Border width | 2dp |
 
-# MIUI-ify Setup
-After that you need to configure MIUI-ify with cebian
+**Launcher and widgets**
 
+| Option | Value |
+|---|---|
+| Font | JetBrains Mono NL |
+| Text | Medium |
 
-First we will customize MIUI-ify with this settings:
+3. Use the wallpaper included in this repo as the background image.
+4. Go to **Settings (Omalauncher) → Linux** and download Linux.
+5. Go to **Settings (Omalauncher) → Coding agents** and download OpenCode (or another code agent).
 
-Note: the options that not appear are diabled
+That completes the Omalauncher setup.
 
-_handles_
+---
 
-hide in landscape mode;
-hide while keyboard is open;
+## 🎛️ MIUI-ify setup
 
-_notification_
+Next, configure MIUI-ify together with Cebian.
 
-show notifications;
-only show music notifications;
-remove spacing between notifications;
-auto expand notufications;
+> **Note:** options that are not listed below are **disabled**.
 
-_background type_
-blur background
+**Handles**
 
-_sliders_
+- Hide in landscape mode
+- Hide while keyboard is open
 
-brightness
+**Notifications**
 
-_tile style_
+- Show notifications
+- Only show music notifications
+- Remove spacing between notifications
+- Auto expand notifications
 
-tile icon shape: squircle
-tile background(enabled): FFE80E3E
-tile background(disabled): 7A4D4D4D 54%
-tile icon(enabled): FF000000
-tile icon(disabled): FF797979
+**Background type**
 
+- Blur background
 
-_layout_
+**Sliders**
 
-number of rows: 2
-number of columns: 4
-number of small columns: 6
-panel corner radius: 10
-panel padding: 12
-tile size: 46
-show panel footer
-crop app icons to circles
-use 24 hour clock
+- Brightness
 
-_extras_
+**Tile style**
 
-Vibrate on touch
-Vibrste using device haptic feedback
-smooth brightness
-show wifi network ssid
+| Option | Value |
+|---|---|
+| Tile icon shape | Squircle |
+| Tile background (enabled) | `FFE80E3E` |
+| Tile background (disabled) | `7A4D4D4D` 54% |
+| Tile icon (enabled) | `FF000000` |
+| Tile icon (disabled) | `FF797979` |
 
+**Layout**
 
-Then you need to configure the appear gesture with cebian:
+| Option | Value |
+|---|---|
+| Number of rows | 2 |
+| Number of columns | 4 |
+| Number of small columns | 6 |
+| Panel corner radius | 10 |
+| Panel padding | 12 |
+| Tile size | 46 |
 
-//Note:
-//the options that not appear are diabled or
-//selected with none
-//active means that the option is activaed but don't do something
+Also enable:
 
-gesture animation: wave
-lock screen 
-home screen
+- Show panel footer
+- Crop app icons to circles
+- Use 24 hour clock
 
-handle sets>left handles: active
-handle sets>right handles: active
-handle sets>bottom handle> double tap>action type>shortcuts>my shortcuts
+**Extras**
 
-In this menu search and select MIUI-ify,then select the option "Open panel"
+- Vibrate on touch
+- Vibrate using device haptic feedback
+- Smooth brightness
+- Show Wi-Fi network SSID
 
+### Gesture configuration (Cebian)
 
-Well,we have the bottom menu but now we have 2 quick settings menu: MUI-ify and the native android menu.Now we will remove that menu to only use the MIUI-ify menu
+> **Note:** options that are not listed are disabled or set to *none*. "Active" means the option is enabled but has no action assigned.
 
+- **Gesture animation:** wave
+- **Lock screen:** enabled
+- **Home screen:** enabled
+- **Handle sets → Left handles:** active
+- **Handle sets → Right handles:** active
+- **Handle sets → Bottom handle → Double tap → Action type → Shortcuts → My shortcuts**
 
-On you local adb launcher write:
+In that last menu, search for and select **MIUI-ify**, then choose the option **"Open panel"**.
 
-dpm set-device-owner com.afwsamples.testdpc/.DeviceAdminReceiver
+---
 
+## 🧹 Removing the native quick settings
 
+At this point you have two quick settings menus: MIUI-ify and the native Android one. To keep only the MIUI-ify menu, remove the native one.
 
-If it don't works,is cuz you have some sccounts signed in.On settings>accounts delete all the accounts singed in.This is an security measure put by google and it is necesary to delete the native quick settings
+1. In your local ADB launcher (or from a PC), run:
 
+   ```bash
+   dpm set-device-owner com.afwsamples.testdpc/.DeviceAdminReceiver
+   ```
 
-Now you need to open Test DPC.The best way to open it is via adb with this command:
+   > ⚠️ **If it doesn't work**, it's because you have accounts signed in. Go to **Settings → Accounts** and remove all signed-in accounts. This is a security measure enforced by Google and it's required to disable the native quick settings.
 
-am start -n com.afwsamples.testdpc/.PolicyManagementActivity
+2. Open **Test DPC**. The easiest way is via ADB:
 
+   ```bash
+   am start -n com.afwsamples.testdpc/.PolicyManagementActivity
+   ```
 
-but you can open it with another way 
+   You can also open it any other way you prefer.
 
-Now you need to search and click just one time "disable status bar" option.Now you can't open the native quick settings menu
+3. Find the **"Disable status bar"** option and tap it **only once**.
 
+Now the native quick settings menu can no longer be opened.
 
+---
 
-# Smart Island Setup
+## 🏝️ Smart Island setup
 
-_home_
+**Home**
 
-Active all options
+- Enable all options
 
-_layout_
-show in landscape mode
-animation speed(landscape): relaxed
-cutout merge style: slide
+**Layout**
 
-_settings_
+- Show in landscape mode
+- Animation speed (landscape): **relaxed**
+- Cutout merge style: **slide**
 
-island font: monospace
-shortcuts: no shortcuts
+**Settings**
 
+- Island font: **monospace**
+- Shortcuts: **no shortcuts**
 
-# HeliBoard Setup
+---
 
-First you need to wet HeliBoard as a default keyboard on settings and configure heliboard like this:
+## ⌨️ HeliBoard setup
 
+First, set HeliBoard as your default keyboard in **Settings**, then configure it as follows.
 
-_preferences_
+**Preferences**
 
-Number row
-language switch key
-dpad key 
-remove redundant popups
-enable clipboard history
-clipboard retention time: no limit
-show pinned item on top
-add image and other files on clipboard history
+- Number row
+- Language switch key
+- D-pad key
+- Remove redundant popups
+- Enable clipboard history
+- Clipboard retention time: **no limit**
+- Show pinned item on top
+- Add images and other files to clipboard history
 
+**Style**
 
-_style_
+- Style: **Material**
+- Icon style: **Holo**
+- Key borders: enabled
+- Colors → **+** → *User defined*
 
-style: material
-icon style: holo
-key borders
-colors>+>user defined
+Colors for the custom color theme:
 
-colors for the color theme created:
+| Element | Color |
+|---|---|
+| Keyboard background | `#050004` |
+| Key background | `#100108` |
+| Functional key background | `#050004` |
+| Space bar background | `#240002` |
+| Key text | `#E80E3E` |
+| Key hint text | `#E80E3E` |
+| Accent | `#050004` |
 
-Keyboard background: #050004
-Key background: #100108
-Functional key background: #050004
-Space bar background: #240002
-Key text: #E80E3E
-Key hint text: #E80E3E 
-Accent: #050004
+**Toolbar**
 
-_tool bar_
+- Hide keyboard by swipe
+- Variable toolbar direction
 
-hide keyboard by swipe
-variable toolbar direction
+**Text correction**
 
+- All disabled
 
-_text correction_
+**Advanced**
 
-all deactived
+- Delete swipe
+- Change input method with space key
+- Emoji for physical keyboard
+- Switch to main keyboard after...
 
+---
 
-_advanced_
+## 🔒 KLCK setup
 
-delete swipe
-change input method with space key
-emoji for physical keyboard
-switch tomain keyboard afer...
-
-
-# KLCK setup
-
-KLCK is the app that change the lock screen,so.On KLCK you need to import the .klck file That appears on this repo
-
-
-
-
-
-
-
-
+KLCK is the app that changes the lock screen. In KLCK, import the `.klck` file included in this repo.
