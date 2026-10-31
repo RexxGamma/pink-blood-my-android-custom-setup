@@ -9,7 +9,7 @@ My custom Android setup for everyday tasks. Built on a **Samsung A03M**.
 <table>
   <tr>
     <td align="center"><img src="assets/page1.jpg" width="200"><br><sub>Page 1</sub></td>
-    <td align="center"><img src="assets/page2.jpg" width="200"><br><sub>Page 2</sub></td>
+    <td align="center"><img src="assets/page 2.jpg" width="200"><br><sub>Page 2</sub></td>
     <td align="center"><img src="assets/page3.jpg" width="200"><br><sub>Page 3</sub></td>
   </tr>
   <tr>
