@@ -66,7 +66,7 @@ and download open code(or another code agent) on settings(omalauncher)>coding ag
 
 With this.All the Omalaumcher setup would be finished.
 
-#MIUI-ify Setup
+# MIUI-ify Setup
 After that you need to configure MIUI-ify with cebian
 
 
@@ -163,7 +163,7 @@ Now you need to search and click just one time "disable status bar" option.Now y
 
 
 
-#Smart Island Setup
+# Smart Island Setup
 
 _home_
 
@@ -180,7 +180,7 @@ island font: monospace
 shortcuts: no shortcuts
 
 
-#HeliBoard Setup
+# HeliBoard Setup
 
 First you need to wet HeliBoard as a default keyboard on settings and configure heliboard like this:
 
@@ -233,7 +233,7 @@ emoji for physical keyboard
 switch tomain keyboard afer...
 
 
-#KLCK setup
+# KLCK setup
 
 KLCK is the app that change the lock screen,so.On KLCK you need to import the .klck file That appears on this repo
 
