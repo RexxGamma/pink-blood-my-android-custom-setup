@@ -4,8 +4,29 @@ My custom Android setup for everyday tasks. Built on a **Samsung A03M**.
 
 ![Wallpaper](wallpaper.png)
 
+## 📸 Preview
+
+<table>
+  <tr>
+    <td align="center"><img src="assets/page1.jpg" width="200"><br><sub>Page 1</sub></td>
+    <td align="center"><img src="assets/page2.jpg" width="200"><br><sub>Page 2</sub></td>
+    <td align="center"><img src="assets/page3.jpg" width="200"><br><sub>Page 3</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/lockscreen.jpg" width="200"><br><sub>Lock screen</sub></td>
+    <td align="center"><img src="assets/face.jpg" width="200"><br><sub>Face</sub></td>
+    <td align="center"><img src="assets/smartisland.jpg" width="200"><br><sub>Smart Island</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/MIUI-ify.jpg" width="200"><br><sub>MIUI-ify panel</sub></td>
+    <td align="center"><img src="assets/notifications.jpg" width="200"><br><sub>Notifications</sub></td>
+    <td></td>
+  </tr>
+</table>
+
 ## 📋 Table of contents
 
+- [Preview](#-preview)
 - [Required apps](#-required-apps)
 - [Omalauncher setup](#-omalauncher-setup)
 - [MIUI-ify setup](#-miui-ify-setup)
@@ -270,3 +291,4 @@ Colors for the custom color theme:
 ## 🔒 KLCK setup
 
 KLCK is the app that changes the lock screen. In KLCK, import the `.klck` file included in this repo.
+
