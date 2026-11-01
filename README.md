@@ -1,6 +1,6 @@
 # 🩸 pink-blood
 
-My custom Android setup for everyday tasks. Built on a **Samsung A03M**.
+My custom Android setup for everyday tasks. Built on a **Samsung A03M**,all made without root.
 
 ![Wallpaper](wallpaper.png)
 
@@ -47,7 +47,7 @@ My custom Android setup for everyday tasks. Built on a **Samsung A03M**.
 - KLCK
 - HeliBoard
 - MIUI-ify
-- A local ADB launcher (or a PC if you have one)
+- A local ADB launcher like LADB(or a PC if you have one)
 
 ---
 
@@ -305,3 +305,8 @@ nano /root/.config/omalauncher/widgets/app-poll.owl
 ```
 
 and paste the content that have these same files on this repo.
+
+
+
+## 📋Extras
+The system font is **jetBrains Mono NL medium**,on samsung you need to download and install `#mono_` and follow the steps shown on the app.
