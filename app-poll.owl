@@ -1,0 +1,26 @@
+widget "app poll" {
+  meta { description: "Poll for app to launch"; version: "1.0"; license: "MIT"; category: "tools"; owl: 13 }
+  source apps = android.apps
+  state t = ""
+
+  on t {
+    if value != "" {
+      let v = trim(value)
+      let q = lower(v)
+      if contains(v, ".") {
+        androidApp(v)
+      } else {
+        let exact = apps.filter(a => lower(a.name) == q)
+        let partial = apps.filter(a => contains(lower(a.name), q))
+        if len(exact) > 0 {
+          androidApp(exact[0].key)
+        } else if len(partial) > 0 {
+          androidApp(partial[0].key)
+        }
+      }
+      t = ""
+    }
+  }
+
+  Box { size: 1; background: accent }
+}
