@@ -292,3 +292,16 @@ Colors for the custom color theme:
 
 KLCK is the app that changes the lock screen. In KLCK, import the `.klck` file included in this repo.
 
+## 🖥️Scripts
+
+Now the only way to open apps is via terminal for this you need to create the `files app-poll.owl` and `app` with the following commands on a omalauncher terminal(with linux installed):
+
+```bash
+ nano /usr/local/bin/app
+ ```
+
+```bash
+nano /root/.config/omalauncher/widgets/app-poll.owl
+```
+
+and paste the content that have these same files on this repo.
