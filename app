@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ $# -eq 0 ]; then
-  echo "Uso: app <nombre o paquete>"
+  echo "Ussage: app <name or package>"
   exit 1
 fi
 W=/root/.config/omalauncher/widgets/app-poll.owl
